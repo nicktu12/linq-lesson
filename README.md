@@ -9,12 +9,16 @@
 A query expression operates on one or more data sources by applying one or more query operators
 
 ## II. LINQ by example
-* Query syntax: declarative
-  * Query expression operates on one or more data sources by applying one or more query operators
-* Method syntax: imperative
+### Query syntax: declarative
+* Query expression operates on one or more data sources by applying one or more query operators
+### Method syntax: imperative
+* Enumerable class contains Linq operators as `extension methods`
+* Delegate - the `callback function` of a LINQ lambda expression
+* Lambda expression - inline anonymous function. `=>` is the lambda operator
+* Methods can be chained together in fluid programming style, meaning output of one method is input to the next
 
 ```
-function find(customerList, customerId) {
+public Customer Find(List<Customer> customerList, int customerId) {
 
 	// using for loop
 
@@ -36,9 +40,18 @@ function find(customerList, customerId) {
 
 	// using method syntax
 
-	return customerList.Where(c.customerId == customerId);
+	return customerList.FirstOrDefault(c => c.customerId == customerId);
 
 }
 ```
 
 * Linq uses `deferred execution` - linq query is defined, but not executed until the result is required
+
+## LINQ methods
+* Select()
+* SelectMany()
+* Any()
+* Where()
+* Skip()
+* First
+* FirstOrDefault

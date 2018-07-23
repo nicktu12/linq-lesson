@@ -16,7 +16,9 @@ A query expression operates on one or more data sources by applying one or more 
 ### Method syntax: imperative
 * Enumerable class contains LINQ operators as `extension methods`
 * Delegate - a method parameter of type function that is a method signature, or the `callback function` of a LINQ lambda expression
-* Lambda expression - inline anonymous function. `=>` is the lambda operator
+* Lambda expression - inline anonymous function. 
+  * `=>` is the lambda operator
+  * Does not require a return statement, but multi-line statements require curly braces and a return statement
 * Methods can be chained together in fluid programming style, meaning output of one method is input to the next
 
 ```

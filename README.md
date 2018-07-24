@@ -50,6 +50,7 @@ public Customer Find(List<Customer> customerList, int customerId) {
 ```
 
 * LINQ uses `deferred execution` - LINQ query is defined, but not executed until the result is required
+  * Can use `ToList()` to execute a LINQ query and return a list
 
 ## III. more examples
 ### Sorting
@@ -127,6 +128,8 @@ Use `SelectMany()` to flatten multiple collections into a single collection
 ### Create
 * Range()
 * Repeat()
+* Add()
+* AddRange()
 ### Compare/Combine
 * Intersect()
 * Except()

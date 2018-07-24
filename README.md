@@ -65,7 +65,10 @@ var intergers = Enumerable.Range(0, 10).Select(i => (i - 2) + (i * 2)); // -2, 1
 var letters = Enumerable.Range(0, 10).Select(i => ((char)('A' + i).ToString()); // A, B, C, D, E, F, G, H, I, J
 ```
 ### Compare/Combine
-
+* To find the intersection of two sequences of numbers: 
+`Enumerable.Intersect(seq1, seq2)`
+or
+`seq1.Intersect(seq2)`
  
 ## Some LINQ methods
 ### Sort

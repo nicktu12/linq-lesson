@@ -102,13 +102,15 @@ footballTeamList.Select(f => new
 * Use `Join()` operater any time you need to combine related data into one query and return a new type
 ```
 Enumberable.Join(
-	OuterList, // a collection
+	OuterList, // a collection ( Join() can be called on this list )
 	InnerList, // a collection related to the OuterList
 	OuterSelector, // Lambda expression of data to select (think Lambda of Select())
 	InnerSelector, // Lambda expression of data to select (think Lambda of Select())
 	ResultSelector // Final Lambda expression, project data from collections into new object or result
 	)
 ```
+### Parent/Child and Master/Detail
+Use `SelectMany()` to flatten multiple collections into a single collection
  
 ## Some LINQ methods
 ### Sort

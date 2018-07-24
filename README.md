@@ -71,6 +71,44 @@ or
 ```seq1.Intersect(seq2)```
 * `Distinct()` only returns unique values
   * `Union()` can be used to combine lists and return only unique values
+### Projections
+Projection refers to transforming an object to a new form (think about `map` array prototype in JavaScript)
+* Can project from a list of complex objects to a list of object properties
+* Projections can be used to transform data into any shape you need
+```
+// Suppose we have a list of football teams, each represented by an object such as:
+
+public class footballTeam 
+{
+	public string Name {get; set;}
+	public string Hometown {get; set;}
+	public string Mascot {get; set;}
+	public List<Players> {get; set;}	
+}
+
+// We can generate (or project) a new list of team mascots using Select() on a list of teams
+
+footballTeamList.Select(f => f.Mascot);
+
+// Create a new anonymous type using new keyword
+
+footballTeamList.Select(f => new 
+	{
+		Name = f.Name,
+		Hometown = f.Hometown,
+		FullName = "The" + f.Hometown + f.Name
+	});
+```
+* Use `Join()` operater any time you need to combine related data into one query and return a new type
+```
+Enumberable.Join(
+	OuterList, // a collection
+	InnerList, // a collection related to the OuterList
+	OuterSelector, // Lambda expression of data to select (think Lambda of Select())
+	InnerSelector, // Lambda expression of data to select (think Lambda of Select())
+	ResultSelector // Final Lambda expression, project data from collections into new object or result
+	)
+```
  
 ## Some LINQ methods
 ### Sort
@@ -96,6 +134,7 @@ or
 ### Transform/Project
 * Select()
 * SelectMany()
+* Join()
 ### There's more!
 * Any()
 * Where()

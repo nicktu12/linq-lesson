@@ -66,9 +66,11 @@ var letters = Enumerable.Range(0, 10).Select(i => ((char)('A' + i).ToString()); 
 ```
 ### Compare/Combine
 * To find the intersection of two sequences of numbers: 
-`Enumerable.Intersect(seq1, seq2)`
+```Enumerable.Intersect(seq1, seq2)```
 or
-`seq1.Intersect(seq2)`
+```seq1.Intersect(seq2)```
+* `Distinct()` only returns unique values
+  * `Union()` can be used to combine lists and return only unique values
  
 ## Some LINQ methods
 ### Sort

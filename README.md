@@ -114,7 +114,7 @@ Enumerable.Join(
 	)
 ```
 ### Parent/Child and Master/Detail
-Use `SelectMany()` to flatten multiple collections into a single collection
+Use `SelectMany()` to flatten multiple collections into a single sequence
  
 ## IV. Crunching the numbers
 Use `Sum()` on a specific property of an object to return the sum, and `Average()` to return the average value of a specific object property.

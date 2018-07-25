@@ -1,11 +1,15 @@
 # linq-lesson
 ###### lets learn linq!
 
-## I. Intro
+## I. What is LINQ?
+
+LINQ is not a charater from The Legend of Zelda video game series. 
+![linq](https://user-images.githubusercontent.com/26471447/43230462-8f3e7d7e-9025-11e8-9398-e7bbe0bf9681.png)
+
 * Like SQL queries
 * C# (Visual Studio) and Visual Basic
 * LINQ has providers for the following data sources: SQL, Entities, Objects, XML, Google, Ebay, Twitter
-* Allows for `traversal`, `filtering` and `ojection` of collections
+* Allows for `traversal`, `filtering` and `projection` of collections
 
 A query expression operates on one or more data sources by applying one or more query operators
 

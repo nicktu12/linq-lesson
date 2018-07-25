@@ -131,6 +131,8 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
   * Reverse the order of a sequence
 * Skip()
   * Will skip element in collection
+* Where()
+  * Returns a filtered sequence based on conditional expression in the method delegate
 ### Create
 * Range()
   * Create numbers in a range
@@ -155,16 +157,20 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
 * Select()
   * Transform each element by using lambda expression (think map array prototype in JavaScript)
 * SelectMany()
+  * Used when we have a sequence of objects which has a collection property and we need to enumerate each item of child collection one by one
 * Join()
+  * Join two sequences based on matching keys
 ### Total
 * Sum()
+  * Returns sum of all elements in a sequence 
 ### Group / Sum
 *  GroupBy()
+  * Group elements based on a specific key
 ### Mean, Median, Mode
 * Average()
-* OrderBy()
-* GroupBy()
+  * Returns average of all elements in a sequence
 ### There's more!
 * Any()
+  * Returns true when any single element in a sequence satisfy a condition else returns false
 * All()
-* Where()
+  * Returns true when any all elements in a sequence satisfy a condition else returns false

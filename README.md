@@ -1,5 +1,5 @@
 # linq-lesson
-###### lets learn 
+###### lets learn linq!
 
 ## I. Intro
 * Like SQL queries
@@ -121,29 +121,39 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
 
 ## Some LINQ methods
 ### Sort
-* First()
-* FirstOrDefault()
-* Last()
-* LastOrDefault()
-* OrderBy()
-* OrderByDescending()
-* ThenBy()
-* ThenByDescending()
+* First(), Last()
+  * Will return first/last element of collection, but throw exception when there are no results. 
+* FirstOrDefault(), LastOrDefault()
+  * Will return first/last element of collection, but return null if there is no result. 
+* OrderBy(), OrderByDescending(), ThenBy(), ThenByDescending()
+  * Sorting operators sorting in ascending or descending order
 * Reverse()
+  * Reverse the order of a sequence
 * Skip()
+  * Will skip element in collection
 ### Create
 * Range()
+  * Create numbers in a range
 * Repeat()
+  * Return mutliple occurances of a given value
 * Add()
+  * Will add single element to a collection
 * AddRange()
+  * Will add a collection to a collection
 ### Compare/Combine
 * Intersect()
+  * Uses equality compare to return the intersection of two sequences
 * Except()
+  * Returns sequence that contains the set difference of the elements of two sequences
 * Concat()
+  * Concatentes two sequences
 * Distinct()
+  * Returns a sequence containing only unique elements
 * Union()
+  * Returns collection of unique elements between two sequences
 ### Transform/Project
 * Select()
+  * Transform each element by using lambda expression (think map array prototype in JavaScript)
 * SelectMany()
 * Join()
 ### Total
@@ -156,4 +166,5 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
 * GroupBy()
 ### There's more!
 * Any()
+* All()
 * Where()

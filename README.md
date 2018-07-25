@@ -113,6 +113,12 @@ Enumberable.Join(
 ### Parent/Child and Master/Detail
 Use `SelectMany()` to flatten multiple collections into a single collection
  
+## IV. analyze data
+Use `Sum()` on a specific property of an object to return the sum, and `Average()` to return the average value of a specific object property.
+
+### Grouping / Summing
+`GroupBy()` takes 3 parameters, the key selector (what we are grouping by), the element selector which defines the values to select from the list, and the results selector, which uses the first two selectors as parameters in the lambda function to return a new type. 
+
 ## Some LINQ methods
 ### Sort
 * First()
@@ -140,6 +146,14 @@ Use `SelectMany()` to flatten multiple collections into a single collection
 * Select()
 * SelectMany()
 * Join()
+### Total
+* Sum()
+### Group / Sum
+*  GroupBy()
+### Mean, Median, Mode
+* Average()
+* OrderBy()
+* GroupBy()
 ### There's more!
 * Any()
 * Where()

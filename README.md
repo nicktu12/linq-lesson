@@ -59,11 +59,11 @@ public Customer Find(List<Customer> customerList, int customerId) {
 * `Range()` takes two parameters, starting value and ending value
   * Can use `Select()` on a range to project an arithmatic sequence
 ```
-var intergers = Enumerable.Range(0, 10); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var intergers = Enumerable.Range(0, 10); // returns [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-var intergers = Enumerable.Range(0, 10).Select(i => (i - 2) + (i * 2)); // -2, 1, 4, 7, 10, 13, 16, 19, 22, 25, 28
+var intergers = Enumerable.Range(0, 10).Select(i => (i - 2) + (i * 2)); // returns [-2, 1, 4, 7, 10, 13, 16, 19, 22, 25, 28]
 
-var letters = Enumerable.Range(0, 10).Select(i => ((char)('A' + i).ToString()); // A, B, C, D, E, F, G, H, I, J
+var letters = Enumerable.Range(0, 10).Select(i => ((char)('A' + i).ToString()); // returns [A, B, C, D, E, F, G, H, I, J]
 ```
 ### Compare/Combine
 * To find the intersection of two sequences of numbers: 

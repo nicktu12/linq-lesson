@@ -7,6 +7,8 @@ LINQ is not a charater from The Legend of Zelda video game series.
 
 ![linq](https://user-images.githubusercontent.com/26471447/43230462-8f3e7d7e-9025-11e8-9398-e7bbe0bf9681.png)
 
+![screenshot_12](https://user-images.githubusercontent.com/26471447/43231660-8394048a-902a-11e8-8184-a9d2e2fe720b.png)
+
 LINQ (Language Integrated Query) is a query syntax available in C# and Visual Basic that provides methods for `traversing`, `filtering` and `projecting` data from different sources (SQL, Entities, Objects, XML, Google, Ebay, Twitter). 
 
 From someone whose experience was based in front end web development, I like to think of LINQ methods for C# collections like array prototype methods in JavaScript. 

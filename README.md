@@ -7,20 +7,18 @@ LINQ is not a charater from The Legend of Zelda video game series.
 
 ![linq](https://user-images.githubusercontent.com/26471447/43230462-8f3e7d7e-9025-11e8-9398-e7bbe0bf9681.png)
 
-* Like SQL queries
-* C# (Visual Studio) and Visual Basic
-* LINQ has providers for the following data sources: SQL, Entities, Objects, XML, Google, Ebay, Twitter
-* Allows for `traversal`, `filtering` and `projection` of collections
+LINQ (Language Integrated Query) is a query syntax available in C# and Visual Basic that provides methods for `traversing`, `filtering` and `projecting` data from different sources (SQL, Entities, Objects, XML, Google, Ebay, Twitter). 
 
-A query expression operates on one or more data sources by applying one or more query operators
+From someone whose experience was based in front end web development, I like to think of LINQ methods for C# collections like array prototype methods in JavaScript. 
 
-## II. LINQ by example
+## II. High-level LINQ
 ### Query syntax: declarative
 * Query expression operates on one or more data sources by applying one or more query operators
-* Not every LINQ operator is available using thid syntax
+* Not every LINQ operator is available using this syntax
+* Resembles SQL query format
 ### Method syntax: imperative
-* Enumerable class contains LINQ operators as `extension methods`
-* Delegate - a method parameter of type function that is a method signature, or the `callback function` of a LINQ lambda expression
+* Enumerable class (C#) contains LINQ operators as `extension methods`
+* Delegate - a method parameter of type function that is a method signature (the `callback function` of a LINQ lambda expression)
 * Lambda expression - inline anonymous function. 
   * `=>` is the lambda operator
   * Does not require a return statement, but multi-line statements require curly braces and a return statement
@@ -57,7 +55,7 @@ public Customer Find(List<Customer> customerList, int customerId) {
 * LINQ uses `deferred execution` - LINQ query is defined, but not executed until the result is required
   * Can use `ToList()` to execute a LINQ query and return a list
 
-## III. more examples
+## III. Deep LINQ
 ### Sorting
 * `OrderBy()` can be followed by `ThenBy()` for advanced ordering via chaining methods together. Can use as many `ThenBy()` as necessary, but only one `OrderBy()`
 ### Creating
@@ -118,13 +116,13 @@ Enumberable.Join(
 ### Parent/Child and Master/Detail
 Use `SelectMany()` to flatten multiple collections into a single collection
  
-## IV. analyze data
+## IV. Crunching the numbers
 Use `Sum()` on a specific property of an object to return the sum, and `Average()` to return the average value of a specific object property.
 
 ### Grouping / Summing
 `GroupBy()` takes 3 parameters, the key selector (what we are grouping by), the element selector which defines the values to select from the list, and the results selector, which uses the first two selectors as parameters in the lambda function to return a new type. 
 
-## Some LINQ methods
+## V. Some (not all) LINQ methods
 ### Sort
 * First(), Last()
   * Will return first/last element of collection, but throw exception when there are no results. 

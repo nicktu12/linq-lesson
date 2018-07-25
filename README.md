@@ -3,7 +3,8 @@
 
 ## I. What is LINQ?
 
-LINQ is not a charater from The Legend of Zelda video game series. 
+LINQ is not a charater from The Legend of Zelda video game series.
+
 ![linq](https://user-images.githubusercontent.com/26471447/43230462-8f3e7d7e-9025-11e8-9398-e7bbe0bf9681.png)
 
 * Like SQL queries

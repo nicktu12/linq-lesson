@@ -60,7 +60,7 @@ public Customer Find(List<Customer> customerList, int customerId) {
 * `OrderBy()` can be followed by `ThenBy()` for advanced ordering via chaining methods together. Can use as many `ThenBy()` as necessary, but only one `OrderBy()`
 ### Creating
 * `Range()` takes two parameters, starting value and ending value
-  * Can use `Select()` on a range to project an arithmatic sequence
+  * Can use `Select()` on a range to `project` an arithmatic sequence
 ```
 var intergers = Enumerable.Range(0, 10); // returns [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -82,7 +82,7 @@ Projection refers to transforming an object to a new form (think about `map` arr
 ```
 // Suppose we have a list of football teams, each represented by an object such as:
 
-public class footballTeam 
+public class FootballTeam 
 {
 	public string Name {get; set;}
 	public string Hometown {get; set;}
@@ -100,12 +100,12 @@ footballTeamList.Select(f => new
 	{
 		Name = f.Name,
 		Hometown = f.Hometown,
-		FullName = "The" + f.Hometown + f.Name
+		FullName = "The" + f.Hometown + " " + f.Name
 	});
 ```
 * Use `Join()` operater any time you need to combine related data into one query and return a new type
 ```
-Enumberable.Join(
+Enumerable.Join(
 	OuterList, // a collection ( Join() can be called on this list )
 	InnerList, // a collection related to the OuterList
 	OuterSelector, // Lambda expression of data to select (think Lambda of Select())

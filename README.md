@@ -138,6 +138,10 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
   * Will skip element in collection
 * Where()
   * Returns a filtered sequence based on conditional expression in the method delegate
+* Any()
+  * Returns true when any single element in a sequence satisfy a condition else returns false
+* All()
+  * Returns true when any all elements in a sequence satisfy a condition else returns false
 ### Create
 * Range()
   * Create numbers in a range
@@ -174,8 +178,3 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
 ### Mean, Median, Mode
 * Average()
   * Returns average of all elements in a sequence
-### There's more!
-* Any()
-  * Returns true when any single element in a sequence satisfy a condition else returns false
-* All()
-  * Returns true when any all elements in a sequence satisfy a condition else returns false

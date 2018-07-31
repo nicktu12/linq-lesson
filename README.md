@@ -1,9 +1,9 @@
-# linq-lesson
-###### lets learn linq!
+# LINQ-lesson
+###### lets learn LINQ!
 
 ## I. What is LINQ?
 
-LINQ is not a charater from The Legend of Zelda video game series.
+LINQ is not a character from The Legend of Zelda video game series (thats Link!).
 
 ![linq](https://user-images.githubusercontent.com/26471447/43230462-8f3e7d7e-9025-11e8-9398-e7bbe0bf9681.png)
 
@@ -19,11 +19,12 @@ From someone whose experience was based in front end web development, I like to 
 * Not every LINQ operator is available using this syntax
 * Resembles SQL query format
 ### Method syntax: imperative
-* Enumerable class (C#) contains LINQ operators as `extension methods`
+* The enumerable class in C# contains LINQ operators as `extension methods`. `Extension methods` are similar to array prototypes in JavaScript.
 * Delegate - a method parameter of type function that is a method signature (the `callback function` of a LINQ lambda expression)
 * Lambda expression - inline anonymous function. 
   * `=>` is the lambda operator
   * Does not require a return statement, but multi-line statements require curly braces and a return statement
+  * Lambda expressions are very similar to ECMAScript 6 arrow functions.
 * Methods can be chained together in fluid programming style, meaning output of one method is input to the next
 
 ```

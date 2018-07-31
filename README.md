@@ -9,6 +9,12 @@ LINQ is not a character from The Legend of Zelda video game series (thats Link!)
 
 ![screenshot_12](https://user-images.githubusercontent.com/26471447/43231660-8394048a-902a-11e8-8184-a9d2e2fe720b.png)
 
+I learned about software development at [Turing]() where I gained the skills to build single page applications using modern JavaScript libraries. This looked great on job applications, and certainly helped me land my first job. However, it would be a number of months before I could put my knowledge of React and Webpack to use. The web application I was developing in was built on the ASP.NET framework, whose main language is C#. 
+
+Learning a new programming language at the first job of your new career can be daunting. I felt lost but through mentorship and learning from my incredible team and hours spent on Pluralsight I felt like I could stay afloat. 
+
+It wasn't until I felt confident in C# that I really took deep dive into LINQ - and that's when I learned I should have started studying LINQ far sooner than I did. 
+
 LINQ (Language Integrated Query) is a query syntax available in C# and Visual Basic that provides methods for `traversing`, `filtering` and `projecting` data from different sources (SQL, Entities, Objects, XML, Google, Ebay, Twitter). 
 
 From someone whose experience was based in front end web development, I like to think of LINQ methods for C# collections like array prototype methods in JavaScript. 

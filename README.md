@@ -185,3 +185,83 @@ Use `Sum()` on a specific property of an object to return the sum, and `Average(
 ### Mean, Median, Mode
 * Average()
   * Returns average of all elements in a sequence
+  
+  ---
+
+formatting for medium
+V. Some (not all) LINQ methods
+Sort Methods
+First(), Last()
+Will return the first or last element of collection respectively, but will throw an exception when there are no results.
+
+FirstOrDefault(), LastOrDefault()
+Will return first/last element of collection, but return null if there is no result.
+
+OrderBy(), OrderByDescending(), ThenBy(), ThenByDescending()
+Sorting operators sorting in ascending or descending order
+
+Reverse()
+Reverse the order of a sequence
+
+Skip()
+Will skip element in collection
+
+Where()
+Returns a filtered sequence based on conditional expression in the method delegate
+
+Any()
+Returns true when any single element in a sequence satisfy a condition else returns false
+
+All()
+Returns true when any all elements in a sequence satisfy a condition else returns false
+
+Create Methods
+Range()
+Create numbers in a range
+
+Repeat()
+Return multiple occurrences of a given value
+
+Add()
+Will add single element to a collection
+
+AddRange()
+Will add a collection to a collection
+
+Compare/Combine Methods
+Intersect()
+Uses equality compare to return the intersection of two sequences
+
+Except()
+Returns sequence that contains the set difference of the elements of two sequences
+
+Concat()
+Concatenates two sequences
+
+Distinct()
+Returns a sequence containing only unique elements
+
+Union()
+Returns collection of unique elements between two sequences
+
+Transform/Project
+Select()
+Transform each element by using lambda expression (think map array prototype in JavaScript)
+
+SelectMany()
+Used when we have a sequence of objects which has a collection property and we need to enumerate each item of child collection one by one
+
+Join()
+Join two sequences based on matching keys
+
+Total
+Sum()
+Returns sum of all elements in a sequence
+
+Group / Sum
+GroupBy()
+Group elements based on a specific key
+
+Mean, Median, Mode
+Average()
+Returns average of all elements in a sequence

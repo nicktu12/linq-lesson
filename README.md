@@ -2,7 +2,7 @@
 ###### lets learn LINQ!
 
 ## I. What is LINQ?
-
+aaa
 LINQ is not a character from The Legend of Zelda video game series (thats Link!).
 
 ![linq](https://user-images.githubusercontent.com/26471447/43230462-8f3e7d7e-9025-11e8-9398-e7bbe0bf9681.png)

@@ -1,4 +1,4 @@
-# LINQ-lesson
+# LINQ-lessonss
 ###### lets learn LINQ!
 
 ## I. What is LINQ?

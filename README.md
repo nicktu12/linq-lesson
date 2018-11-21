@@ -9,7 +9,7 @@ LINQ is not a character from The Legend of Zelda video game series (thats Link!)
 
 ![screenshot_12](https://user-images.githubusercontent.com/26471447/43231660-8394048a-902a-11e8-8184-a9d2e2fe720b.png)
 
-I learned about software development at [Turing]() where I gained the skills to build single page applications using modern JavaScript libraries. This looked great on job applications, and certainly helped me land my first job. However, it would be a number of months before I could put my knowledge of React and Webpack to use. The web application I was developing in was built on the ASP.NET framework, whose main language is C#. 
+I learned about software development at [Turing]() where I gained the skills to build single page applications using modern JavaScript libraries. This looked great on job applications, and certainly helped me land my first job. However, it would be a number of months before I could put my knowledge of React and Webpack to use. The web application I was developing in was built on the ASP.NET framework, whose main language is C#. sdsdf
 
 Learning a new programming language at the first job of your new career can be daunting. I felt lost but through mentorship and learning from my incredible team and hours spent on Pluralsight I felt like I could stay afloat. 
 

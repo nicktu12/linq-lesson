@@ -1,7 +1,7 @@
 # LINQ-lesson
 ###### lets learn linq!
 
-## I. What is LINQ?
+## I. What is LINQ?ddd
 
 LINQ is not a character from The Legend of Zelda video game series (thats Link!).
 

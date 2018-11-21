@@ -11,7 +11,7 @@ LINQ is not a character from The Legend of Zelda video game series (thats Link!)
 
 I learned about software development at [Turing]() where I gained the skills to build single page applications using modern JavaScript libraries. This looked great on job applications, and certainly helped me land my first job. However, it would be a number of months before I could put my knowledge of React and Webpack to use. The web application I was developing in was built on the ASP.NET framework, whose main language is C#. 
 
-Learning a new programming language at the first job of your new career can be daunting. I felt lost but through mentorship and learning from my incredible team and hours spent on Pluralsight I felt like I could stay afloat. 
+Learning a new programming language at the first job of your new career can be daunting. I felt lost but through mentorship and learning from my incredible team and hours spent on Pluralsight I felt like I could stay afloat. asdfasdf
 
 It wasn't until I felt confident in C# that I really took deep dive into LINQ - and that's when I learned I should have started studying LINQ far sooner than I did. 
 sdfgsdfg

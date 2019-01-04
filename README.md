@@ -14,7 +14,7 @@ I learned about software development at [Turing]() where I gained the skills to 
 Learning a new programming language at the first job of your new career can be daunting. I felt lost but through mentorship and learning from my incredible team and hours spent on Pluralsight I felt like I could stay afloat. 
 
 It wasn't until I felt confident in C# that I really took deep dive into LINQ - and that's when I learned I should have started studying LINQ far sooner than I did. 
-sdfgsdfg
+
 LINQ (Language Integrated Query) is a query syntax available in C# and Visual Basic that provides methods for `traversing`, `filtering` and `projecting` data from different sources (SQL, Entities, Objects, XML, Google, Ebay, Twitter). 
 
 From someone whose experience was based in front end web development, I like to think of LINQ methods for C# collections like array prototype methods in JavaScript. 
